@@ -2,7 +2,7 @@
 
 Django project for taxi service
 
-[Taxi service project deployed to Heroku](paste link here)
+[Taxi service project deployed to Heroku](https://taxi-service-lasko.herokuapp.com/)
 
 ## Installation
 

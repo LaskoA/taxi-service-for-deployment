@@ -11,10 +11,23 @@ Python3 must be installed
 ```shell
 git clone https://github.com/LaskoA/taxi-service-for-deployment
 cd taxi-service-for-deployment
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+
+Virtual environment install for Windows:
+  - python3 -m venv venv
+  - source venv/bin/activate
+  - pip install -r requirements.txt
+  
+Virtual environment install for Mac:
+  - sudo pip install virtualenv
+  - virtualenv env
+  - source env/bin/activate
+  
 python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+
+user for test: admin_for_test
+password for test: visitor12345
 ```
 
 ## Features

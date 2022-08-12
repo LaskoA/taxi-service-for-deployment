@@ -25,9 +25,6 @@ Virtual environment install for Mac:
 python manage.py runserver
 python manage.py makemigrations
 python manage.py migrate
-
-user for test: admin_for_test
-password for test: visitor12345
 ```
 
 ## Features
@@ -39,5 +36,10 @@ password for test: visitor12345
 
 ## Demo
 ![website_interface](logo.png)
+
+## Access
+user for test: admin_for_test
+
+password for test: visitor12345
 
 
